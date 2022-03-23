@@ -10,7 +10,7 @@ import api from "./api";
 const { PORT, MONGO_URI } = process.env;
 
 mongoose
-  .connect(MONGO_URI, { useNewUrlParser: true, useFindAndModify: false })
+  .connect(MONGO_URI, { useNewUrlParser: true })
   .then(() => {
     console.log("✅ Connected to MongoDB");
   })
