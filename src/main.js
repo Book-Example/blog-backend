@@ -5,6 +5,7 @@ import bodyParser from "koa-bodyparser";
 import mongoose from "mongoose";
 
 import api from "./api";
+//import createFakeData from "./createFakeData"; // 더미 데이터 호출
 
 // 비구조화 할당을 통해 process.env 내부 값에 대한 Reference 만들기
 const { PORT, MONGO_URI } = process.env;
