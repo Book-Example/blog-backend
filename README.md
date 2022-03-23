@@ -9,3 +9,4 @@ POSTMAN 활용
 ### npm install esm
 ### npm install joi
 ### npm install bcrypt
+### npm install jsonwebtoken
