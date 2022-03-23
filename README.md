@@ -8,3 +8,4 @@ POSTMAN 활용
 ### npm install dotenv
 ### npm install esm
 ### npm install joi
+### npm install bcrypt
